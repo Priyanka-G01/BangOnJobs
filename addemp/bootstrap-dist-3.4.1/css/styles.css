@@ -1,0 +1,671 @@
+body{
+  background: green;
+}
+
+#header-nav{
+  background:#585858;
+  border: 1px solid black;
+  margin-bottom: 0px;
+  border-radius: 0px;
+}
+
+#logo-img{
+   background: url('../Screenshots/L1.png')no-repeat;
+   width: 221px;
+   height: 204px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   margin: 10px 15px 10px 0;
+}
+
+#navbar-brand{
+  padding-top: 25px;
+}
+#navbar-brand h1{
+  font-family: 'Cinzel Decorative', cursive;
+  color:  #004225;
+  font-size: 70px;
+  margin-top: 0;
+  margin-bottom: 0;
+ margin-right: 2px;
+ margin-left: 150px;
+}
+
+#navbar-brand a:hover, #navbar-brand a:focus{
+  text-decoration: none;
+  
+}
+
+#tag-line{
+  font-family: 'Dancing Script', cursive;
+
+ color: black;
+  font-size: 30px;
+  margin-top: 0;
+  margin-bottom: 0;
+ margin-right: 2px;
+ margin-left: 30px;
+ word-spacing: 8px;
+ font-weight: bold;
+}
+
+
+#nav-list{
+  margin-top: 0px;
+}
+
+#nav-list a{
+  color: black;
+  font-size: 2.4em;
+  font-family: 'Libre Caslon Display', serif;
+  font-weight: bold;
+}
+
+#nav-list a:hover{
+  background-color: #E7E7E7;
+}
+
+#header-nav1{
+   background: #C0C0C0;
+  border: 1px solid black;
+  margin-bottom: 0px;
+  border-radius: 0px;
+}
+
+#nav-list1{
+  margin-top: 0px;
+}
+
+#nav-list1 a{
+  color: black;
+  font-size: 2.4em;
+  font-family: 'Libre Caslon Display', serif;
+  font-weight: bold;
+  margin-right: 10px;
+   margin-left: 10px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+#nav-list1 a:hover{
+  background-color: #E7E7E7;
+
+}
+
+.dropdown-menu{
+  background-color: #C0C0C0;
+  text-align: center;
+  font-size: .8em;
+}
+
+
+/* Login Page */
+#c{
+  font-family: 'Cinzel Decorative', cursive;
+  color: black;
+  font-size: 70px;
+  margin-top: 0;
+  margin-bottom: 0;
+ margin-right: 2px;
+ 
+ text-align: center;
+}
+
+
+
+.box{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   width: 400px;
+   background: rgba(0,0,0,.8);
+   padding: 80px;
+   box-sizing: border-box;
+   box-shadow: 0 15px 25px rgba(0,0,0,.5);
+   border-radius: 10px;
+}
+ 
+ .box h2{
+  margin: 0 0 30px;
+  padding: 0;
+   color: #fff;
+   text-align: center;
+   font-family: 'Libre Caslon Display', serif;
+  
+ }
+
+ .box .input-box{
+  position: relative;
+ }
+
+ .box .input-box input{
+  width: 100%;
+  font-size: 16px;
+  padding: 10px 0;
+  color: #fff;
+  margin-bottom: 30px;
+  border:none;
+  outline: none;
+  background: transparent;
+  border-bottom:1px solid #fff;
+ }
+
+ .box .input-box label{
+  position: absolute;
+  top: 0;
+  left: 0;
+  letter-spacing: 1px;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  pointer-events: none;
+  transition: .5s;
+ }
+   
+.box .input-box input:focus ~ label,
+.box .input-box input:valid ~ label{
+  top: -20px;
+  left: 0;
+  color: #03a9f4;
+  font-size: 12px;
+}  
+
+.box input[type="submit"]
+{
+  background: transparent;
+  border:none;
+  outline: none;
+  color: #fff;
+  background: #03a9f4;
+  padding: 10px 20px;
+}  
+
+/* About.html */
+
+h3{
+  font-family: 'Bree Serif', serif;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 50px;
+  color: black;
+  word-spacing: 3px;
+} 
+
+h4{
+  font-family: 'Bree Serif', serif;
+font-family: 'Cinzel', serif;
+font-family: 'Playfair Display SC', serif;
+text-align: left;
+color: black;
+font-size: 30px;
+text-align: center;
+padding-top: 30px;
+padding-bottom: 10px;
+margin-bottom: 5px solid black;
+border-bottom: 1px solid black;
+}
+
+#our-mission p{
+  font-family: 'Bree Serif', serif;
+font-family: 'Cinzel', serif;
+font-family: 'Playfair Display SC', serif;
+font-family: 'Sacramento', cursive;
+font-size: 50px;
+color: black;
+position: relative;
+left: 15px;
+}
+
+#what-we-are{
+  position: relative;
+  float: right;
+  font-family: 'Playfair Display', serif;
+  font-size: 30px;
+  color: black;
+  text-transform: none;
+}
+#our-mission-img {
+ margin-top: 90px;
+ vertical-align: right;
+}
+
+ #priya-img img, #shrishti-img img, #keerthi-img img, #kavana-img img{
+  
+  margin-top: 50px;
+  width: 80%;
+  height: 250px;
+  margin-left: 15px;
+ }
+
+#prof{
+  font-size: 20px;
+}
+
+/* Slide show */
+
+@keyframes slider{
+  0%{
+    left: 0;
+  }
+
+  20%{
+    left: 0;
+  }
+
+  25%{
+    left: -100%;
+  }
+
+  45%{
+    left: -100%;
+  }
+
+  50%{
+    left: -200%;
+  }
+
+  70%{
+    left: -200%;
+  }
+
+  75%{
+    left: -300%;
+  }
+
+  95%{
+    left: -300%;
+  }
+
+  100%{
+    left: -400%;
+  }
+}
+
+#slider{
+  overflow: hidden;
+}
+
+#slider figure img{
+  width:20%;
+ float: left;
+}
+
+#slider figure{
+  position: relative;
+  width: 500%;
+  height: 110vh;
+  margin:0;
+  left: 0;
+  text-align:center;
+  font-size: 0;
+  animation: 20s slider infinite;
+}
+
+#images img{
+  width: 100%;
+  height: 100%;
+}
+
+/* Footer */
+
+.panel-footer{
+  margin-top: 10px;
+  padding-top: 45px;
+  padding-bottom: 30px;
+  background-color: #222;
+  border-top: 0;
+}
+
+
+
+#a{
+  font-size: 1.8em;
+  font-family: 'Playfair Display', serif;
+  color: green;
+}
+
+#b {
+  color: white;
+  font-size: 1.4em;
+  line-height: 1.8;
+  font-style: italic;
+  color: white;
+}
+
+/* Discussions.html */
+
+/* Style inputs, select elements and textareas */
+input[type=text], select, textarea{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #000;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+/* Style the label to display next to the inputs */
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+   font-size: 1.6em;
+  color: black;
+}
+
+/* Style the submit button */
+input[type=submit] {
+  background: transparent;
+  border:none;
+  outline: none;
+  color: #fff;
+  background: #03a9f4;
+  padding: 10px 20px;
+  float: right;
+  border: 1px solid black;
+}
+
+/* Style the container */
+.#dpg {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+/* Floating column for labels: 25% width */
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+/* Floating column for inputs: 75% width */
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+/*  Sell.html */
+
+#sell-list{
+  font-family: 'Nanum Myeongjo', serif;
+  font-size: 30px;
+  color:black;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 25px;
+
+}
+
+#sell-cate{
+  font-family: 'Katibeh', cursive;
+font-family: 'Nanum Myeongjo', serif;
+text-align: left;
+position: relative;
+left: 25px;
+}
+
+#sell-cate input[type="text"]{
+  width: 25%;
+  padding: 14px;
+  height: 35px;
+}
+
+ #sell-cate input[type="submit"]
+{
+  background: transparent;
+  border:none;
+  outline: none;
+  color: #fff;
+  background: #03a9f4;
+  padding: 10px 20px;
+  align-items: center;
+}  
+
+#sell-cate input[ type="checkbox"]{
+  background-color: white;
+ outline:2px solid black;
+}
+
+#sell-cate input[ type="checkbox"]: hover {
+  background: #03a9f4;
+  opacity: .4;
+}
+
+#sell-cate input[type="text"]{
+  background-color: white;
+  outline: 2px solid black;
+}
+
+#sell-cate input[type="text"]:hover, #sell-cate input[type="text"]:focus{
+  background:#03a9f4;
+}
+
+/* Buy.html */
+#vegie-tile , #fruits-tile , #flowers-tile{
+  height: 300px;
+  width: 90%;
+  margin-bottom: 15px;
+  position: relative;
+  border:2px solid black;
+  overflow: hidden;
+  margin-top: 50px;
+  left: 25px;
+}
+
+#vegie-tile:hover , #fruits-tile:hover , #flowers-tile:hover{
+  box-shadow: 0 1px 5px 1px #000;
+}
+
+#vegie-tile span, #fruits-tile span, #flowers-tile span{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.8em;
+  text-transform: uppercase;
+  background-color: #000;
+  opacity: .8;
+  color: white;
+}
+
+#vegie-tile img,#fruits-tile img,#flowers-tile img{
+  width: 100%;
+  height: 300px;
+}
+/* Vegetables.html */
+
+#buy-vegies {
+  font-family: 'Bree Serif', serif;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 50px;
+  color: black;
+  word-spacing: 3px;
+}
+
+.overlay button{
+  border:1px solid black;
+  background: #fff;
+}
+.overlay button span{
+  color: black;
+  font-size: 1.4em;
+  margin-bottom: 5px;
+}
+
+.overlay button:hover{
+  box-shadow: 0 1px 5px 1px #000;
+
+}
+
+.product-top img{
+  border:2px solid black;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  width: 100%;
+  height: 250px;
+
+}
+
+#vegie-name{
+  font-family: 'Nanum Myeongjo', serif;
+  font-size: 25px;
+  color:black;
+  
+  text-align: center;
+ 
+}
+
+#cost{
+  font-family: 'Nanum Myeongjo', serif;
+  font-size: 15px;
+  color:black;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.product-bottom span{
+  color: yellow;
+  border:black;
+}
+
+#product{
+  border:1px solid black;
+   margin-left: 50px;
+    margin-right: 30px;
+     margin-bottom: 5px;
+  margin-top: 15px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+#product:hover , #product:focus{
+  box-shadow: 0 1px 5px 1px  #000;
+}
+
+/* signup.html */
+* {box-sizing: border-box}
+
+#Signup{
+  margin: 0 0 30px;
+  padding: 0;
+   color: #000;
+   font-size: 2.8em;
+   font-weight: bold;
+   
+   font-family: 'Libre Caslon Display', serif;
+}
+
+#p{
+  color: yellow;
+  font-size: 1.4em;
+}
+b{
+  font-size: 1.2em;
+  color: black;
+}
+/* Full-width input fields */
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+ 
+  margin-bottom: 25px;
+}
+
+#rme{
+   color: #000;
+  font-size: 1.4em;
+}
+/* Set a style for all buttons */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  border: 1px solid black;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 25%;
+}
+
+.signupbtn{
+  background: transparent;
+  border:none;
+  outline: none;
+  color: #fff;
+  background: #03a9f4;
+  padding: 14px 20px;
+  border: 1px solid black;
+}
+
+/* Add padding to container elements */
+#spg {
+  padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.container input{
+  width: 50%;
+
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
+}

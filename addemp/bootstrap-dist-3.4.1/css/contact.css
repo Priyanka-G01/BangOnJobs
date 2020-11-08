@@ -1,0 +1,245 @@
+body{
+    padding:0px;
+    margin:0px;
+    font-family:sans-serif;
+    background:  green;
+}
+    
+#cpg {
+    width:90%;
+    margin:auto;
+    overflow:hidden;
+
+}
+#contact-section{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.9)),url(../contact.png);
+    background-size: cover;
+    background-position:  center;
+    height:100%;
+    width:100%;
+    padding-bottom:2%
+}
+#contact-section .container h2{
+    text-align:center;
+    
+     font-size: 50px;
+    color:#fff;
+    letter-spacing:2px;
+    font-family: 'Bree Serif', serif;
+  
+  text-transform: uppercase;
+}
+
+#contact-section .container p{
+    font-family: 'Dancing Script', cursive;
+font-family: 'Philosopher', sans-serif;
+    text-align:center;
+    width:90%;
+    margin-left:auto;
+    margin-right:auto;
+    padding-bottom:1%;
+    color:yellow;
+    letter-spacing:2px;
+    font-size: 30px;
+}
+
+.contact-form i.fa{
+    font.size:22px;
+    padding:3%;
+    background-color:none;
+    margin:2%;
+    boder-radius:80%
+    cursor:pointer;
+    border:2px solid rgd(190,190,190);
+    color:rgb(190,190,190)
+}
+
+.contact-form i.fa:hover{
+    cursor:pointer;
+    border:2px solid #fff;
+    color:#fff;
+}
+.contact-form{
+    display:grid;
+    grid-template-columns:auto auto;
+    color:#fff;
+}
+.contact form .form-info{
+    font-size:16px;
+    font-style:italic;
+    
+    letter-spacing:2px;
+}
+input{
+    padding:10px;
+    margin:10px;
+    width:70%;
+    background-color:rga(136,133,133,0.5);
+    color:#fff;    
+    border:none;
+    outline:none;
+}
+
+input:placeholder{
+    color:#fff;
+}
+
+textarea{
+        padding:100px;
+        margin:10px;
+        width:70%;
+        background-color: rgba(136,133,133.0.5);
+        color:#fff;
+        border:none;
+        outline:none;
+
+    }
+
+text area::placeholder{
+    color:#fff;
+}
+.submit{
+    width:40%;
+    background:none;
+    padding:4px;
+    outline:none;
+    font-size:13px;
+    font-weight:bold;
+    letter-spacing:2px;
+    height:33px;
+    text-align:center;
+    cursor:pointer;
+    letter-spacing:2px;
+    margin-left:3%;
+    border:2px solid rgb(190,190,190);
+    color:rgb(190,190,190);
+    background: #03a9f4;
+
+}
+.submit:hover{
+    border:2px solid #fff;
+    color:#fff;
+    cursor:pointer;
+}
+/*media queries*/
+@media(max-width:768px){
+    #contact-section .contact-form{
+        display:block;
+        width:100%;
+        text-align:center;
+    }
+    #contact-section .submit{
+       width:60%; 
+    }
+}
+
+/*nav-bar */
+#header-nav{
+  background:#585858;
+  border: 1px solid black;
+  margin-bottom: 0px;
+  border-radius: 0px;
+}
+
+#logo-img{
+   background: url('../Screenshots/L1.png')no-repeat;
+   width: 221px;
+   height: 204px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   margin: 10px 15px 10px 0;
+}
+
+#navbar-brand{
+  padding-top: 25px;
+}
+#navbar-brand h1{
+  font-family: 'Cinzel Decorative', cursive;
+  color:  #004225;
+  font-size: 70px;
+  margin-top: 0;
+  margin-bottom: 0;
+ margin-right: 2px;
+ margin-left: 150px;
+}
+#tag-line{
+  font-family: 'Dancing Script', cursive;
+
+ color: black;
+  font-size: 30px;
+  margin-top: 0;
+  margin-bottom: 0;
+ margin-right: 2px;
+ margin-left: 30px;
+ word-spacing: 8px;
+}
+
+#navbar-brand a:hover, #navbar-brand a:focus{
+  text-decoration: none;
+}
+
+#nav-list{
+  margin-top: 0px;
+}
+
+#nav-list a{
+  color: black;
+  font-size: 2.4em;
+  font-family: 'Libre Caslon Display', serif;
+  font-weight: bold;
+}
+
+#nav-list a:hover{
+  background-color: #E7E7E7;
+}
+
+#header-nav1{
+   background: #C0C0C0;
+  border: 1px solid black;
+  margin-bottom: 0px;
+  border-radius: 0px;
+}
+
+#nav-list1{
+  margin-top: 0px;
+}
+
+#nav-list1 a{
+  color: black;
+  font-size: 2.4em;
+  font-family: 'Libre Caslon Display', serif;
+  font-weight: bold;
+  margin-right: 10px;
+   margin-left: 10px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+#nav-list1 a:hover{
+  background-color: #E7E7E7;
+}
+/* footer */
+.panel-footer{
+  margin-top: 10px;
+  padding-top: 35px;
+  padding-bottom: 30px;
+  background-color: #222;
+  border-top: 0;
+}
+
+
+
+#a{
+  font-size: 1.8em;
+  font-family: 'Playfair Display', serif;
+  color: green;
+}
+
+#b {
+  color: white;
+  font-size: 1.4em;
+  line-height: 1.8;
+  font-style: italic;
+  color: white;
+}
+
