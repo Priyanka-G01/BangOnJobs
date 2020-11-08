@@ -1,3 +1,5 @@
+<?php include_once("akatsuki.html"); ?>
+
 <!DOCTYPE html>
 <html>
 <head>
